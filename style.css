@@ -1,0 +1,660 @@
+body{
+    margin: 0;
+    background-color: rgba(255, 255, 255, 0.607);
+}
+.container9{
+    width: 100%;
+    height: 720px;
+}
+nav{
+    padding-top: 40px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 22px;
+}
+nav ul li a{
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 21px;
+}
+nav ul li a:hover{
+    color: black;
+    transition: .3s;
+    border: 2px solid rgba(255, 255, 255, 0.584);
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.584);
+    box-shadow: 4px 5px 6px;
+    border-radius: 22%;
+}
+.one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(128, 128, 128, 0.511);
+    position: sticky;
+    top: 0;
+}
+#idi{
+    font-weight: 600;
+}
+#ee{
+    font-weight: 600;
+}
+.bgimage {
+    height:100vh;
+    background: url('./images/333.jpg');
+    position:relative;
+}
+/* text css above hero image*/
+.hero_title {
+    font-size: 3rem;
+    position: absolute;
+    left: 18%;
+    top: 44%;
+    font-family: 'Lilita One', cursive;
+}
+.herroo{
+    font-size: 1.9rem;
+    position: absolute;
+    left: 28%;
+    top: 36%;
+    font-family: 'Lilita One', cursive;
+    font-weight: bold;
+}
+.hero_desc {
+    font-size: 2rem;
+    position: absolute;
+    left: 26%;
+    top: 59%;
+    font-weight: 700;
+    background-color: rgba(255, 255, 255, 0.859);
+    font-family: 'Lilita One', cursive;
+}
+
+.cl{
+    position: relative;
+    text-decoration: none;
+    text-shadow: 2px 3px 4px;
+    padding: 8px;
+    font-size: 70px;
+    font-weight: 500;
+    font-family: 'Lilita One', cursive;
+}
+.cl::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0%;
+    height: 7px;
+    background-color: black;
+    transition: 0.4s ease-in;
+}
+.cl:hover::after{
+    left: 0;
+    width: 100%;
+}
+
+
+.card111 {
+    width: 75%;
+    border-radius: 50%;
+  
+    position: relative;
+    left: 80px;
+    top: 45px;
+    transition: .5s;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+}
+
+.card111::before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: all 0.5s;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.card111:hover::before {
+    top: 0;
+}
+
+.card111 img {
+    height: 100%;
+    width: 100%;
+    transition: all 0.5s;
+    border-radius: 50%;
+    border: 3px solid black;
+    box-shadow: 6px 6px 6px;
+}
+
+.card111:hover img {
+    border-radius: 1px
+}
+
+.card111 h2 {
+    text-transform: uppercase;
+    color: #fff;
+    position: absolute;
+    bottom: -100%;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: 0.5s;
+    transition-delay: calc(0.1s * var(--i));
+}
+
+.card111:hover h2 {
+    bottom: 80px;
+}
+
+.card111 p {
+    color: #fff;
+    position: absolute;
+    bottom: -100%;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: 0.5s;
+    transition-delay: calc(0.1s * var(--i));
+}
+
+.card111:hover p {
+    bottom: 40px;
+}
+
+.card111 .icon111 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    align-items: flex-end;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    z-index: 100;
+}
+
+.card111 .icon111 i {
+    color: #fff;
+    font-size: 1.2rem;
+    margin-right: 15px;
+    transform: translateX(250%);
+    transition: all 0.5s;
+    transition-delay: calc(0.1s * var(--i));
+}
+
+.card111:hover .icon111 i {
+    transform: translateX(0);
+    left: 280px;
+}
+.text-center{
+    border: 1px solid rgba(0, 0, 0, 0.588);
+    text-shadow: 2px 3px 4px;
+    box-sizing: border-box;
+    width: 140px;
+    padding: 5px;
+    border: none;
+    padding: 13px;
+    border-bottom: 3px solid black;
+    outline: none;
+    resize: none;
+}
+.text-center1{
+    border: 1px solid rgba(0, 0, 0, 0.588);
+    text-shadow: 2px 3px 4px;
+    box-sizing: border-box;
+    width: 180px;
+    padding: 5px;
+    border: none;
+    padding: 13px;
+    border-bottom: 3px solid black;
+    outline: none;
+    resize: none;
+}
+.text-center2{
+    border: 1px solid rgba(0, 0, 0, 0.588);
+    text-shadow: 2px 3px 4px;
+    box-sizing: border-box;
+    width: 180px;
+    padding: 5px;
+    border: none;
+    padding: 13px;
+    border-bottom: 3px solid black;
+    outline: none;
+    resize: none;
+    margin-top: 10px;
+}
+
+.services{
+	background-color: lightgray;
+	width: 100%;
+	float: left;
+	padding:100px 0;
+}
+
+.container{
+	max-width: 1170px;
+	margin: auto;
+}
+.services .heading{
+	margin-bottom: 60px;
+	width: 100%;
+	float: left;
+}
+.services .heading h1{
+  text-align: center;
+  font-size: 40px;
+  color:#000000;
+  margin:0;
+}
+
+.services .content{
+	float: left;
+	width: 100%;
+}
+.services .content .box{
+	width: 33.33%;
+	float: left;
+	padding:15px;
+}
+.services .content .box .inner{
+	padding:30px;
+	text-align: center;
+	position: relative;
+}
+
+.services .content .box .inner::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom:0;
+	width:0;
+	box-sizing: border-box;
+	height: 0;
+	border-bottom:4px solid transparent;
+	border-left: 4px solid transparent;
+	transition: all .8s ease;
+}
+.services .content .box .inner::after{
+	content: '';
+	position: absolute;
+	right:0;
+	top:0;
+	width:0;
+	box-sizing: border-box;
+	height:0;
+	border-top:4px solid transparent;
+	border-right: 4px solid transparent;
+	transition: all .8s ease;
+}
+.services .content .box:hover .inner::after,
+.services .content .box:hover .inner::before{
+   border-color: black;
+   width: 100%;
+   height: 100%;
+}
+.services .content .box .inner .icon{
+	font-size:50px;
+	color: white;
+	transition: color .8s ease;
+}
+.services .content .box:hover .inner .icon{
+	color: black;
+}
+.services .content .box .inner h3{
+	font-size: 20px;
+	font-weight: 500;
+	color:#000;
+	margin:20px 0;
+}
+
+.services .content .box .inner p{
+	font-size:15px;
+	color:#444444;
+	line-height:24px;
+}
+
+
+/*responsive*/
+
+@media(max-width: 767px){
+	.services .content .box {
+    width:100%;
+    
+}
+}
+
+.hhh{
+    font-size: 28px;
+    font-weight: 700;
+    text-decoration: underline;
+    line-height: 30px;
+}
+
+.skills{
+    width: 100%;
+    max-width: 600px;
+    padding: 0 20px;
+}
+
+.skill-name{
+    font-size: 18px;
+    font-weight: 700;
+    color: black;
+    margin: 20px 0;
+}
+.skill-bar{
+    height: 14px;
+    background: grey;
+    border-radius: 3px;
+}
+
+.skill-per{
+    height: 14px;
+    background:  #385170;
+    border-radius: 3px;
+    position: relative;
+    animation: fillBars 2.5s 1;
+}
+.skill-per::before{
+    content: attr(per);
+    position: absolute;
+    padding: 4px 6px;
+    background: #3851709c;
+    color: white;
+    border-radius: 4px;
+    font-size: 12px;
+    top: -35px;
+    right: 0;
+    transform: translateX(50%);
+}
+
+@keyframes fillBars{
+    from{
+        width: 0;
+    }
+    to{
+        width: 100%;
+    }
+}
+.bb{
+    margin: 60px;
+    padding: 8px;
+    border-radius: 14%;
+    font-weight: bold;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.978);
+    font-family: 'Lato', sans-serif;
+}
+.bb:hover{
+    color: black;
+    background: white;
+    border: 3px solid black;
+    box-shadow: 4px 6px 8px;
+}
+.card-img-top{
+    border: 3px solid black;
+    transition: 2s;
+}
+.card{
+    box-shadow: 4px 4px 4px;
+}
+.card-title{
+    font-weight: bolder;
+}
+.card:hover{
+    box-shadow: 12px 20px 12px;
+}
+
+.card-img-top:hover{
+    transform: scale(0.9);
+}
+
+.contact{
+    position: relative;
+    height: 700px;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: lightgray;
+}
+.contact .content{
+    max-width: 800px;
+    text-align: center;
+}
+.contact .content h2{
+    font-size: 36px;
+    font-weight: 500;
+    color: black;
+    border: none;
+    padding: 13px;
+    border-bottom: 3px solid black;
+    outline: none;
+    resize: none;
+    text-shadow: 2px 3px 4px;
+}
+.container77{
+    background-color: lightgray;
+    padding: 20px;
+}
+.container1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.container1 .contactinfo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.container1 .contactinfo .box{
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+}
+
+.icon3{
+    min-width: 50px;
+    height: 50px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 22px;
+    border: 3px solid black;
+}
+.icon1{
+    width: 50px;
+    height: 50px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 22px;
+    position: absolute;
+    top: 250px;
+    border: 3px solid black;
+}
+
+.icon2{
+    width: 50px;
+    height: 50px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 22px;
+    position: absolute;
+    top: 380px;
+    left: 432px;
+    border: 3px solid black;
+}
+.icon3:hover{
+    color: white;
+    background-color: #000;
+}
+.icon1:hover{
+    color: white;
+    background-color: #000;
+}
+.icon2:hover{
+    color: white;
+    background-color: #000;
+}
+.text{
+    display: flex;
+    margin-left: 20px;
+    font-size: 14px;
+    color: black;
+    flex-direction: column;
+    font-weight: 300;
+    position: absolute;
+    left: 60px;
+}
+
+
+.text1{
+    display: flex;
+    margin-left: 20px;
+    font-size: 14px;
+    color: black;
+    flex-direction: column;
+    font-weight: 300;
+    position: absolute;
+    left: 490px;
+    top: 250px;
+}
+
+
+.text22{
+    display: flex;
+    margin-left: 20px;
+    font-size: 14px;
+    color: black;
+    flex-direction: column;
+    font-weight: 300;
+    position: absolute;
+    top: 380px;
+    left: 493px;
+}
+.text h3{
+    font-weight: 500;
+    color: black;
+}
+span{
+    font-weight: 600;
+}
+.contactform{
+    width: 30%;
+    padding: 40px;
+    background: rgba(255, 255, 255, 0.555);
+    position: relative;
+    left: 350px;
+    bottom: 100px;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 8px 8px 8px;
+}
+.contactform h2{
+    font-size: 30px;
+    color: black;
+    font-weight: 700;
+    font-family: 'Arvo', serif;
+}
+.contactform h2:hover{
+     text-decoration: underline;
+}
+.contactform .inputbox{
+    width: 100%;
+    margin-top: 20px;
+}
+.contactform .inputbox input,
+.contactform .inputbox textarea
+{
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+    resize: none;
+}
+.contactform .inputbox span{
+    position: absolute;
+    left: 40px;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: 0.5s;
+    color: rgba(0, 0, 0, 0.812);
+
+}
+.contactform .inputbox input:focus ~ span,
+.contactform .inputbox input:valid ~ span
+{
+    color: black;
+    font-size: 12px;
+    transform: translateY(-20px);
+}
+
+.contactform .inputbox input[type="submit"]{
+    width: 100px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 12px;
+    font-size: 18px;
+    border-radius: 8px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+}
+
+.contactform .inputbox input[type="submit"]:hover{
+      color: black;
+      background-color: white;
+      border: 2px solid black;
+      box-shadow: 3px 6px 8px;
+}
+.butt{
+    padding: 11px;
+    border: 3px solid black;
+    border-radius: 16px;
+    font-weight: bold;
+    background-color: white;
+    color: black;
+    position: absolute;
+    left: 440px;
+    top: 530px;
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+}
+.butt:hover{
+        color: white;
+        background-color: #000;
+        box-shadow: 6px 8px 10px;
+}
+.mb-4 a:hover{
+    background-color: white;
+     border: 5px solid black;
+}
