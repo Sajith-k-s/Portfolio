@@ -839,4 +839,7 @@ span{
     .contact .content h2{
         font-size: 26px;
     }
+    .hero_desc span{
+        font-size: 25px;
+    }
 }
