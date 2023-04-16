@@ -739,13 +739,17 @@ span{
 @media screen and (max-width:600px) {
 
     nav ul li a{
-        font-size: 15px;
+        font-size: 12px;
+        display: inline-block;
     }
     .one{
         width: 100%;
     }
     .ci{
-        font-size: 50px;
+        font-size: 46px;
+    }
+    .hero_title{
+        font-size: 2rem;
     }
     .container-fluid{
         width: 100%;
@@ -815,17 +819,24 @@ span{
     }
     .text1{
         position: absolute;
-        left: 220px;
+        left: 200px;
+    }
+    .icon1{
+        position: absolute;
+        top: 270px;
     }
     .icon2{
         position: absolute;
-        left: 175px;
+        left: 140px;
     }
     .text22{
         position: absolute;
-        left: 220px;
+        left: 200px;
     }
     .contactform{
         visibility: hidden;
+    }
+    .contact .content h2{
+        font-size: 26px;
     }
 }
